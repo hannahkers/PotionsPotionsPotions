@@ -5,15 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PotionsPotionsPotions"
         mc:Ignorable="d"
-        Title="Potions! Potions! Potions!" Height="450" Width="909">
+        Title="Potions! Potions! Potions!" Height="600" Width="1000">
     <Grid OpacityMask="White">
         <Grid.Background>
             <ImageBrush ImageSource="hannah-thomson-5456d2cc-204b-4852-beb5-ea53493fda32.jpg" Opacity="0.845"/>
         </Grid.Background>
-        <Label Content="Player Inventory&#xD;&#xA;" HorizontalAlignment="Left" Height="45" Margin="30,50,0,0" VerticalAlignment="Top" Width="160" FontFamily="Papyrus" FontSize="20" FontWeight="Bold"/>
-        <TextBlock x:Name="PlayerInventoryList" HorizontalAlignment="Left" Height="260" Margin="20,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontFamily="Centaur" FontSize="18" Background="#FFC9C9F3"/>
-        <Label Content="Vendor Inventory&#xD;&#xA;" HorizontalAlignment="Left" Height="45" Margin="710,50,0,0" VerticalAlignment="Top" Width="170" FontFamily="Papyrus" FontSize="20" FontWeight="Bold" Background="#00000000"/>
-        <TextBlock x:Name="VendorInventoryList" HorizontalAlignment="Left" Height="260" Margin="700,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontFamily="Centaur" FontSize="18" Background="#FFC9C9F3"/>
+        <Label Content="Player Inventory&#xD;&#xA;" HorizontalAlignment="Left" Height="45" Margin="10,66,0,0" VerticalAlignment="Top" Width="160" FontFamily="Papyrus" FontSize="20" FontWeight="Bold"/>
+        <TextBlock x:Name="PlayerInventoryList" HorizontalAlignment="Left" Height="260" Margin="10,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontFamily="Centaur" FontSize="18" Background="#FFC9C9F3"/>
+        <Label Content="Vendor Inventory&#xD;&#xA;" HorizontalAlignment="Left" Height="45" Margin="812,66,0,0" VerticalAlignment="Top" Width="170" FontFamily="Papyrus" FontSize="20" FontWeight="Bold" Background="#00000000"/>
+        <TextBlock x:Name="VendorInventoryList" HorizontalAlignment="Left" Height="260" Margin="802,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" FontFamily="Centaur" FontSize="18" Background="#FFC9C9F3"/>
         <Label Content="Potions! Potions! Potions!" HorizontalAlignment="Left" Height="60" Margin="225,0,0,0" VerticalAlignment="Top" Width="435" FontFamily="Papyrus" FontSize="36" FontWeight="Bold"/>
         <Button x:Name="SearchButton" Content="Search" HorizontalAlignment="Left" Height="40" Margin="550,360,0,0" VerticalAlignment="Top" Width="120" FontFamily="Centaur" FontSize="22" Background="#FF515D49" Click="SearchButton_Click"/>
         <Rectangle Fill="#FFC9C9F3" HorizontalAlignment="Left" Height="200" Margin="225,140,0,0" Stroke="Black" VerticalAlignment="Top" Width="445"/>
@@ -22,8 +22,9 @@
         <Button x:Name="ShowAllDataButton" Content="All Potions" HorizontalAlignment="Left" Height="40" Margin="225,73,0,0" VerticalAlignment="Top" Width="120" FontFamily="Centaur" FontSize="22" Background="#FF515D49" Click="ShowAllDataButton_Click"/>
         <TextBox x:Name="Input" HorizontalAlignment="Left" Height="40" Margin="225,360,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Background="#FFC9C9F3" FontSize="20" FontFamily="Centaur"/>
         <TextBlock x:Name="Output" HorizontalAlignment="Left" Height="200" Margin="225,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="445" FontFamily="Centaur" FontSize="18"><Run Text="Check out your recipes!"/></TextBlock>
-        <Button x:Name="PlayerInventory_Button" Content="Show Inventory" HorizontalAlignment="Left" Height="40" Margin="30,369,0,0" VerticalAlignment="Top" Width="145" FontFamily="Centaur" FontSize="22" Background="#FF515D49" Click="SearchButton_Click"/>
-        <Button x:Name="VendorInventory_Button" Content="Show Inventory" HorizontalAlignment="Left" Height="40" Margin="710,369,0,0" VerticalAlignment="Top" Width="145" FontFamily="Centaur" FontSize="22" Background="#FF515D49" Click="VendorInventoryButton_Click"/>
+        <Button x:Name="PlayerInventory_Button" Content="Show Inventory" HorizontalAlignment="Left" Height="40" Margin="25,384,0,0" VerticalAlignment="Top" Width="145" FontFamily="Centaur" FontSize="22" Background="#FF515D49" Click="SearchButton_Click"/>
+        <Button x:Name="VendorInventory_Button" Content="Show Inventory" HorizontalAlignment="Left" Height="40" Margin="812,384,0,0" VerticalAlignment="Top" Width="145" FontFamily="Centaur" FontSize="22" Background="#FF515D49" Click="VendorInventoryButton_Click"/>
+        <ListBox x:Name="Output1" HorizontalAlignment="Left" Height="140" Margin="265,405,0,0" VerticalAlignment="Top" Width="285"/>
 
     </Grid>
 </Window>

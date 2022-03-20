@@ -21,22 +21,6 @@ namespace PotionsPotionsPotions
 
             return output;
         }
-        public string ConvertLowerCase(string message) => message.ToLower();
-
-        //external data utilities 
-        public static string LoadTextFromFile(string path) => File.ReadAllText(path);
-
-        public static List<Item> LoadLinesFromFile(string path)
-        {
-            //string output = "";
-            List<Item> items = new List<Item>();
-
-            foreach (string s in File.ReadAllLines(path))
-            {
-                items.Add(new Item() { Name = s });
-                // Utility.Print(s);
-            }
-            return items;
-        }
+       
     }
 }

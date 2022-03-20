@@ -18,3 +18,16 @@ namespace PotionsPotionsPotions
         public List<Item> Inventory = new List<Item>();
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

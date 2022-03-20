@@ -12,5 +12,10 @@ namespace PotionsPotionsPotions
         {
             ((MainWindow)System.Windows.Application.Current.MainWindow).Output.Text = output;
         }
+        
+
+        public string ConvertLowerCase(string message) => message.ToLower();
+
+        
     }
 }
