@@ -111,13 +111,13 @@
     <Resource Include="data\welcome.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="istockphoto-1300134682-612x612.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="hannah-thomson-5456d2cc-204b-4852-beb5-ea53493fda32.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="data\recipes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="data\defaultVendorItems.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -13,7 +13,7 @@ namespace PotionsPotionsPotions
         //price
         //quantity
         //amount type
-        public string Name;
+        public string ItemName;
         public string Description;
         public float Quantity = 1;
         public float Price;

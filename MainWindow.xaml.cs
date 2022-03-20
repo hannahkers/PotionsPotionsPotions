@@ -42,33 +42,38 @@ namespace PotionsPotionsPotions
         #region "button event handlers"
         private void ShowAllDataButton_Click(object sender, RoutedEventArgs e)
         {
-            Print(game.GetAllData());
+            PrintToOutput(game.GetAllData());
         }
         private void ShowTermsButton_Click(object sender, RoutedEventArgs e)
         {
-            Print(game.GetAllTerms());
+            PrintToOutput(game.GetAllTerms());
         }
 
         private void ShowDefinitionsButton_Click(object sender, RoutedEventArgs e)
         {
-            Print(game.GetAllDefinitions());
+            PrintToOutput(game.GetAllDefinitions());
         }
 
         private void ShowTermsByLengthButton_Click(object sender, RoutedEventArgs e)
         {
-            Print(game.GetAllTermsOrderedByLength());
+            PrintToOutput(game.GetAllTermsOrderedByLength());
         }
 
         private void SearchButton_Click(object sender, RoutedEventArgs e)
         {
-            Print(game.Find(Input.Text));
+            PrintToOutput(game.Find(Input.Text));
             ClearInputBoxOfText();
         }
         #endregion
 
         private void VendorInventoryButton_Click(object sender, RoutedEventArgs e)
         {
-            //Print(game.GetVendorData);
+            PrintToVendor(game.GetVendorData());
+        }
+
+        private void PlayerInventory_Button_Click(object sender, RoutedEventArgs e)
+        {
+            PrintToPlayer(game.GetPlayerData());
         }
     }
 }

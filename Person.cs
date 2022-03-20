@@ -16,6 +16,14 @@ namespace PotionsPotionsPotions
         public string Description;
         public float Currency;
         public List<Item> Inventory = new List<Item>();
+
+        //public bool CraftItem()
+        //{
+        //    if (Player.)
+        //    {
+
+        //    }
+        //}
     }
 }
 

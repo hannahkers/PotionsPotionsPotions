@@ -8,5 +8,6 @@ namespace PotionsPotionsPotions
 {
     class Material : Item
     {
+        
     }
 }

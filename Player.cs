@@ -8,10 +8,11 @@ namespace PotionsPotionsPotions
 {
     class Player : Person
     {
-        public void LearnRecipe(Recipe recipe)
+        public void MakeRecipe()
         {
-
+            
         }
+
 
     }
 }
